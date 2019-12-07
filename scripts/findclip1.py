@@ -71,9 +71,7 @@ def findbreak(t0, quality0,chrom0):
 def main(inputfile):
 	
 
-	#allchroms=['chr5', 'chr6', 'chr12', 'chr16', 'chr7', 'chr10', 'chr14', 'chr15', 'chr8', 'chr19', 'chr9', 'chrY', 'chr18', 'chrM', 'chr17', 'chr3', 'chr13', 'chr20', 'chr11', 'chr2', 'chr1', 'chr4', 'chr21']
-
-	allchroms=['chrX']
+	allchroms=['chr5', 'chr6', 'chr12', 'chr16', 'chr7', 'chr10', 'chr14', 'chr15', 'chr8', 'chr19', 'chr9', 'chrY', 'chr18', 'chrM', 'chr17', 'chr3', 'chr13', 'chr20', 'chr11', 'chr2', 'chr1', 'chr4', 'chr21']
 	
 	try:
 		os.mkdir('temp')	
