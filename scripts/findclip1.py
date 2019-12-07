@@ -6,12 +6,6 @@ import os
 import Queue
 import sys
 import getopt
-
-
-opts,args=getopt.getopt(sys.argv[1:],"f:")
-for op, value in opts:
-	if op=='-f':
-		inputfile=value
 		
 
 def readcigar(cigar,posi):
@@ -101,6 +95,12 @@ def main(inputfile):
 	
 	
 if __name__=='__main__':
+	
+	inputfile=''
+	opts,args=getopt.getopt(sys.argv[1:],"f:")
+	for op, value in opts:
+		if op=='-f':
+			inputfile=value
 	
 	main(inputfile)
 
