@@ -8,13 +8,6 @@ import sys
 import getopt
 import math
 
-
-
-
-opts,args=getopt.getopt(sys.argv[1:],"f:")
-for op, value in opts:
-	if op=='-f':
-		inputfile=value
 		
 
 def findclippingchance(chrom):
@@ -129,6 +122,11 @@ def main():
 	
 	
 if __name__=='__main__':
+	
+	opts,args=getopt.getopt(sys.argv[1:],"f:")
+	for op, value in opts:
+		if op=='-f':
+			inputfile=value
 	
 	main()
 
