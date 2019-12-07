@@ -84,8 +84,7 @@ def main(inputfile):
 		
 		chromfile='temp/'+inputfile.split('/')[-1]+'_'+chrom
 	
-		if chrom != 'chr5':	
-			os.system('samtools view {:s} {:s} > {:s}'.format(inputfile, chrom, chromfile))
+		os.system('samtools view {:s} {:s} > {:s}'.format(inputfile, chrom, chromfile))
 	
 		t = pd.read_csv(chromfile, sep='\t',dtype='str', chunksize=100000,names=range(30))
 	
