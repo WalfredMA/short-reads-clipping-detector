@@ -1,7 +1,7 @@
 # short-reads-clipping-detector
 
-//  Created by Walfred MA in 2019, wangfei.ma@ucsf.edu.
-//  Copyright © 2019 UCSF-Kwoklab. All rights reserved.
+//  Created by Walfred MA in 2018, wangfei.ma@ucsf.edu.
+//  Copyright © 2018 UCSF-Kwoklab. All rights reserved.
 
 Finding the position of clippings from short reads alignments in the bam files
 
