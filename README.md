@@ -1,4 +1,8 @@
 # short-reads-clipping-detector
+
+//  Created by Walfred MA in 2019, wangfei.ma@ucsf.edu.
+//  Copyright © 2019 UCSF-Kwoklab. All rights reserved.
+
 Finding the position of clippings from short reads alignments in the bam files
 
 There are three pieces of scripts:
